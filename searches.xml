@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" ?>
+
+<!-- this file should be updated to control the search engines 
+use attributes ie, firefox and chrome to control which browsers the settings are NOT applied to 
+e.g. ie="0" firefox="0" chrome="0"
+
+%s will be substituted for search terms. (In Chrome too)
+
+remember to use &amp; in URLs!   (or ; can work - but &amp; probably more reliable)
+-->
+
+<searches>
+	<!-- chrome only shortcuts -->
+	<search keyword="hi"    title="history"    		ie="0" firefox="0"			url="chrome://history/search#q=%s" 		/>
+	<search keyword="bm"    title="bookmarks"    	ie="0" firefox="0"			url="chrome://bookmarks/#q=%s" 			/>
+	<search keyword="set"   title="settings"    	ie="0" firefox="0"			url="chrome://settings/search#%s" 		/>
+	<search keyword="dn"    title="downloads"    	ie="0" firefox="0"			url="chrome://downloads/#%s" 			/>
+
+	<!-- public urls -->
+	<search keyword="w"     title="Wikipedia"    		url="http://en.wikipedia.org/w/index.php?title=Special:Search&amp;search=%s" />
+	<search keyword="en" 	title="Wordref Eng" 		url="http://www.wordreference.com/definition/%s" />
+	<search keyword="map"   title="Google maps"    		url="https://www.google.com/maps/place/%s" />
+	<search keyword="ln"    title="Linked in"    		url="http://www.linkedin.com/search/fpsearch?type=people&amp;pplSearchOrigin=GLHD&amp;pageKey=member-home&amp;search=Search&amp;keywords=%s" public="0"/>
+	<search keyword="gi"    title="Google images"    	url="https://www.google.com/search?tbm=isch&amp;q=%s" />
+	<search keyword="gsc"    title="Google scholar" 	url="https://scholar.google.co.uk/scholar?hl=en&amp;btnG=&amp;as_sdt=1%2C5&amp;as_sdtp=&amp;q=%s" />	
+	<search keyword="gsh"    title="Google shopping" 	url="https://www.google.co.uk/#tbm=shop&amp;q=%s" />	
+	<search keyword="gbk"    title="Google books" 		url="https://www.google.co.uk/#tbm=bks&amp;q=%s" />	
+
+	<search keyword="g"     title="Google"    			url="https://www.google.co.uk/search?q=%s" />
+	<search keyword="ebay"  title="eBay UK"    			url="http://www.ebay.co.uk/sch/i.html?_nkw=%s&amp;_sacat=0" />
+	
+	
+	<search url="http://www.etymonline.com/index.php?allowed_in_frame=0&amp;search=%s&amp;searchmode=none" keyword="et" title="Etymonline" />	
+	
+	<!-- word reference --> 
+	<search url="http://www.wordreference.com/definicion/%s" keyword="es" title="WR diccionario español" />
+	<search url="http://www.wordreference.com/definition/%s" keyword="en" title="WR English dictionary" />
+	<search url="http://www.wordreference.com/definizione/%s" keyword="it" title="WR italiano"/>	
+		
+	<search url="http://www.wordreference.com/sinonimos/%s" keyword="esth" title="WR sinonimos" />
+	<search url="http://www.wordreference.com/thesaurus/%s" keyword="enth" title="WR thesaurus" />
+	<search url="http://www.wordreference.com/thesaurus/%s" keyword="th" title="WR thesaurus" />
+	
+	<search url="http://www.wordreference.com/conj/ESverbs.asp?v=%s" keyword="esconj" title="WR Spanish Conjugation" />
+	<search url="http://www.wordreference.com/conj/FRverbs.asp?v=%s" keyword="frconf" title="WR French Conjugation" />
+	<search url="http://www.wordreference.com/conj/ITverbs.asp?v=%s" keyword="itconf" title="WR Italian Conjugation" />
+
+	<search url="http://www.wordreference.com/enes/%s" keyword="enes" title="WR English-Spanish" />
+	<search url="http://www.wordreference.com/enfr/%s" keyword="enfr" title="WR English-French" />
+	<search url="http://www.wordreference.com/enit/%s" keyword="enit" title="WR English-Italian" />
+	<!--<search url="http://www.wordreference.com/ende/%s" keyword="ende" title="WR English-German" />-->
+	<search url="http://www.wordreference.com/enpt/%s" keyword="enpt" title="WR English-Portuguese" />
+	<search url="http://www.wordreference.com/esfr/%s" keyword="esfr" title="WR espanol-francais" />
+	<search url="http://www.wordreference.com/espt/%s" keyword="espt" title="WR espanol-portugues" />
+	<search url="http://www.wordreference.com/esen/%s" keyword="esen" title="WR Spanish-English" />
+	<search url="http://www.wordreference.com/fren/%s" keyword="fren" title="WR French-English" />
+	<search url="http://www.wordreference.com/iten/%s" keyword="iten" title="WR Italian-English" />
+	<!--<search url="http://www.wordreference.com/deen/%s" keyword="deen" title="WR German-English" />-->
+	<search url="http://www.wordreference.com/pten/%s" keyword="pten" title="WR Portuguese-English" />
+	<search url="http://www.wordreference.com/fres/%s" keyword="fres" title="WR francais-espanol" />
+	<search url="http://www.wordreference.com/ptes/%s" keyword="ptes" title="WR portugues-espanol" />
+	<search url="http://www.wordreference.com/enru/%s" keyword="enru" title="WR English-Russian" />
+	<search url="http://www.wordreference.com/enpl/%s" keyword="enpl" title="WR English-Polish" />
+	<search url="http://www.wordreference.com/enro/%s" keyword="enro" title="WR English-Romanian" />
+	<search url="http://www.wordreference.com/encz/%s" keyword="encz" title="WR English-Czech" />
+	<search url="http://www.wordreference.com/engr/%s" keyword="engr" title="WR English-Greek" />
+	<search url="http://www.wordreference.com/entr/%s" keyword="entr" title="WR English-Turkish" />
+	<search url="http://www.wordreference.com/enzh/%s" keyword="enzh" title="WR English-Chinese" />
+	<search url="http://www.wordreference.com/enja/%s" keyword="enja" title="WR English-Japanese" />
+	<search url="http://www.wordreference.com/enko/%s" keyword="enko" title="WR English-Korean" />
+	<search url="http://www.wordreference.com/enar/%s" keyword="enar" title="WR English-Arabic" />
+	<search url="http://www.wordreference.com/ruen/%s" keyword="ruen" title="WR Russian-English" />
+	<search url="http://www.wordreference.com/plen/%s" keyword="plen" title="WR Polish-English" />
+	<search url="http://www.wordreference.com/roen/%s" keyword="roen" title="WR Romanian-English" />
+	<search url="http://www.wordreference.com/czen/%s" keyword="czen" title="WR Czech-English" />
+	<search url="http://www.wordreference.com/gren/%s" keyword="gren" title="WR Greek-English" />
+	<search url="http://www.wordreference.com/tren/%s" keyword="tren" title="WR Turkish-English" />
+	<search url="http://www.wordreference.com/zhen/%s" keyword="zhen" title="WR Chinese-English" />
+	<search url="http://www.wordreference.com/jaen/%s" keyword="jaen" title="WR Japanese-English" />
+	<search url="http://www.wordreference.com/koen/%s" keyword="koen" title="WR Korean-English" />
+	<search url="http://www.wordreference.com/aren/%s" keyword="aren" title="WR Arabic-English" />	
+
+	<!-- spanish using sp instead of es -->
+	<search url="http://www.wordreference.com/enes/%s" keyword="ensp" title="WR English-Spanish" />
+	<search url="http://www.wordreference.com/esen/%s" keyword="spen" title="WR Spanish-English" />
+	<search url="http://www.wordreference.com/esfr/%s" keyword="spfr" title="WR espanol-francais" />
+	<search url="http://www.wordreference.com/espt/%s" keyword="sppt" title="WR espanol-portugues" />
+	<search url="http://www.wordreference.com/fres/%s" keyword="frsp" title="WR francais-espanol" />
+	<search url="http://www.wordreference.com/ptes/%s" keyword="ptsp" title="WR portugues-espanol" />
+	
+	<!-- german using ge instead of de - note greek is gk -->
+	<search url="http://www.wordreference.com/ende/%s" keyword="enge" title="WR English-German" />
+	<search url="http://www.wordreference.com/deen/%s" keyword="geen" title="WR German-English" />
+
+	<!-- german with leo - use de here to distinguish from word reference -->
+	<search url="http://dict.leo.org/ende/index_de.html#/searchLoc=-1&amp;resultOrder=basic&amp;multiwordShowSingle=on&amp;search=%s" keyword="ende" title="Leo English-German" />
+	<search url="http://dict.leo.org/ende/index_de.html#/searchLoc=1&amp;resultOrder=basic&amp;multiwordShowSingle=on&amp;search=%s"	keyword="deen" title="Leo German-English" />		
+	<search url="http://dict.leo.org/frde/index_de.html#/searchLoc=-1&amp;resultOrder=basic&amp;multiwordShowSingle=on&amp;search=%s" keyword="frde" title="Leo French-German" />
+	<search url="http://dict.leo.org/frde/index_de.html#/searchLoc=1&amp;resultOrder=basic&amp;multiwordShowSingle=on&amp;search=%s"	keyword="defr" title="Leo German-French" />
+	<search url="http://dict.leo.org/esde/index_de.html#/searchLoc=-1&amp;resultOrder=basic&amp;multiwordShowSingle=on&amp;search=%s" keyword="esde" title="Leo Spanish-German" />
+	<search url="http://dict.leo.org/esde/index_de.html#/searchLoc=1&amp;resultOrder=basic&amp;multiwordShowSingle=on&amp;search=%s"	keyword="dees" title="Leo German-Spanish" />	
+	<search url="http://dict.leo.org/itde/index_de.html#/searchLoc=-1&amp;resultOrder=basic&amp;multiwordShowSingle=on&amp;search=%s" keyword="itde" title="Leo Italian-German" />
+	<search url="http://dict.leo.org/itde/index_de.html#/searchLoc=1&amp;resultOrder=basic&amp;multiwordShowSingle=on&amp;search=%s"	keyword="deit" title="Leo German-Italian" />
+	<search url="http://dict.leo.org/chde/index_de.html#/searchLoc=-1&amp;resultOrder=basic&amp;multiwordShowSingle=on&amp;search=%s" keyword="chde" title="Leo Chinese-German" />
+	<search url="http://dict.leo.org/chde/index_de.html#/searchLoc=1&amp;resultOrder=basic&amp;multiwordShowSingle=on&amp;search=%s"	keyword="dech" title="Leo German-Chinese" />
+	<search url="http://dict.leo.org/rude/index_de.html#/searchLoc=-1&amp;resultOrder=basic&amp;multiwordShowSingle=on&amp;search=%s" keyword="rude" title="Leo Russian-German" />
+	<search url="http://dict.leo.org/rude/index_de.html#/searchLoc=1&amp;resultOrder=basic&amp;multiwordShowSingle=on&amp;search=%s"	keyword="deru" title="Leo German-Russian" />	
+	<search url="http://dict.leo.org/ptde/index_de.html#/searchLoc=-1&amp;resultOrder=basic&amp;multiwordShowSingle=on&amp;search=%s" keyword="ptde" title="Leo Portuguese-German" />
+	<search url="http://dict.leo.org/ptde/index_de.html#/searchLoc=1&amp;resultOrder=basic&amp;multiwordShowSingle=on&amp;search=%s"	keyword="dept" title="Leo German-Portugese" />
+	<search url="http://dict.leo.org/plde/index_de.html#/searchLoc=-1&amp;resultOrder=basic&amp;multiwordShowSingle=on&amp;search=%s" keyword="plde" title="Leo Polish-German" />
+	<search url="http://dict.leo.org/plde/index_de.html#/searchLoc=1&amp;resultOrder=basic&amp;multiwordShowSingle=on&amp;search=%s"	keyword="depl" title="Leo German-Polish" />		
+
+	<!-- oxford -->
+	<search url="http://www.oxforddictionaries.com/definition/english/%s" keyword="ox" title="Oxford English" />
+	
+	<!-- google translate -->
+	<search url="http://translate.google.com/#auto/en/%s" keyword="tr" 	title="Google trans =>en" />
+	<search url="http://translate.google.com/#auto/en/%s" keyword="tren" 	title="Google trans =>en" />
+	<search url="http://translate.google.com/#it/en/%s" keyword="triten" title="Google trans it=>en" />
+	<search url="http://translate.google.com/#fr/en/%s" keyword="trfren" title="Google trans French=>en" />	
+	<search url="http://translate.google.com/#sp/en/%s" keyword="trspen" title="Google trans Spanish=>en" />	
+	<search url="http://translate.google.com/#de/en/%s" keyword="trdeen" title="Google trans German=>en" />	
+	
+</searches>
+
+
+
+
+

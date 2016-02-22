@@ -36,12 +36,12 @@ pause
 @rem kill chrome
 taskkill /f /im chrome.exe
 taskkill /f /im firefox.exe
+ping 1.1.1.1 -n 1 -w 1500 > nul
 )
 
 @rem localappdata isn't defined on windows xp, so we can set it appropriately
 if not defined localappdata set localappdata=%userprofile%\local settings\application data
 
-ping 1.1.1.1 -n 1 -w 2000 > nul
 @rem run on Internet Explorer
 @echo on
 bin\msxsl.exe "%searchfile%" "xsl\internetExplorer_keywords.xsl" >"%temp%\internetExplorer_keywords.reg"
@@ -50,20 +50,20 @@ del "%temp%\internetExplorer_keywords.reg"
 
 @echo on
 @rem Run on chrome
-bin\msxsl.exe "%searchfile%" xsl\chrome_keywords.xsl | "sqlite3.exe" "%localappdata%\google\chrome\user data\default\web data"
+bin\msxsl.exe "%searchfile%" "xsl\chrome_keywords.xsl" | "sqlite3.exe" "%localappdata%\google\chrome\user data\default\web data"
 
 @echo off
 @rem sort out Mozilla directory...
 set workingdir=%cd%
 cd /d "%appdata%\mozilla\firefox\profiles\*.default*"
 set placesdir=%cd%
-cd /d %workingdir%
+cd /d "%workingdir%"
 
 @echo on
 bin\msxsl.exe "%searchfile%" "xsl\firefox_keywords.xsl" | "sqlite3.exe" "%placesdir%\places.sqlite"
 
 @echo on
-bin\msxsl.exe %searchfile% "xsl\searchList.xsl" -o "%searchfile%.html"
+bin\msxsl.exe "%searchfile%" "xsl\searchList.xsl" -o "%searchfile%.html"
 
 :end
 @echo off

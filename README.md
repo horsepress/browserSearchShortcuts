@@ -4,6 +4,8 @@ These are both useful and a pain to edit manually, hence this project.
 
 See e.g. http://kb.mozillazine.org/Using_keyword_searches  or http://lifehacker.com/5476033/how-to-set-keyword-bookmarks-in-google-chrome for details. 
 
+!(http://winaero.com/blog/wp-content/uploads/2014/04/Italian-bread-address-bar.png)
+
 Use
 ===
 

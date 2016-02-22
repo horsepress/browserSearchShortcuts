@@ -12,7 +12,7 @@ Use
 Run ```addSearchShortcuts.bat``` to add the default file, which is ```searches.xml```. 
 
 Alternatively drag XML files on to ```addSearchShortcuts.bat``` to add other files, such as dictionaries.xml, which adds a load of dictionary
-search shortcuts.
+search shortcuts. This probably won't work in the downloads directory, so move the folder somewhere else first.
 
 Chrome and Firefox will be killed when this runs! 
 

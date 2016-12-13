@@ -1,6 +1,6 @@
-This adds keyword search shortcuts to Chrome, Firefox and Internet Explorer on Windows PCs.
+This adds browser address bar keyword search shortcuts to Chrome, Firefox and Internet Explorer on Windows PCs.
 
-These are both useful and a pain to edit manually, hence this project.
+These are both useful and a pain to edit manually, hence this project. 
 
 See e.g. http://kb.mozillazine.org/Using_keyword_searches  or http://lifehacker.com/5476033/how-to-set-keyword-bookmarks-in-google-chrome for details. 
 

@@ -21,6 +21,13 @@ Explorer registry entries
 
 You could create additional XML files for further shortcuts, or edit these.
 
+Data files
+==========
+
+There are two XML files. 
+* Searches.xml (the default) contains some general purpose search engines.
+* Dictionaries.xml contains a selection of web based dictionaries. 
+
 Workings
 ========
 

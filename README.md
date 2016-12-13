@@ -65,8 +65,12 @@ values (
 
 insert or replace into moz_bookmarks (id,type,fk,parent,title,keyword_id) 
 values (
-  (SELECT id FROM moz_bookmarks WHERE title = "Wikipedia"),1,(SELECT id FROM moz_places WHERE url = "http://en.wikipedia.org/w/index.php?title=Special:Search&search=%s"),
-  (select id from moz_bookmarks where type=2 and title="search shortcuts"),"Wikipedia",(SELECT id FROM moz_keywords WHERE keyword = "w")
+  (SELECT id FROM moz_bookmarks WHERE title = "Wikipedia"),
+  1,
+  (SELECT id FROM moz_places WHERE url = "http://en.wikipedia.org/w/index.php?title=Special:Search&search=%s"),
+  (select id from moz_bookmarks where type=2 and title="search shortcuts"),
+  "Wikipedia",
+  (SELECT id FROM moz_keywords WHERE keyword = "w")
 );
 ```
 

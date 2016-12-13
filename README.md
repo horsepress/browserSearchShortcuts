@@ -29,3 +29,43 @@ containing details of the search shortcuts, using the XSL files in the ```xsl```
 * These are then added to the SQLite databases and registry respectively.
 * An HTML file detailing the searches is also generated.
 
+SQL
+===
+
+The SQL commands used look like these examples (for searching Wikipedia with "w"). The SQL and .reg files can be generated from the XML without applying them using the makeSQL.bat file.
+
+Chrome:
+```sql
+delete from keywords where keyword in ("w");
+insert into keywords (short_name,keyword,show_in_default_list,favicon_url,url) values 
+("Wikipedia","w",1,"","http://en.wikipedia.org/w/index.php?title=Special:Search&search={searchTerms}");
+```
+
+Firefox:
+```sql
+insert or replace into moz_places (id,url) 
+values ( 
+  (SELECT id FROM moz_places WHERE url = "http://en.wikipedia.org/w/index.php?title=Special:Search&search=%s"),
+  "http://en.wikipedia.org/w/index.php?title=Special:Search&search=%s"
+);
+
+insert or replace into moz_keywords (id,keyword, place_id) 
+values ( 
+  (SELECT id FROM moz_keywords WHERE keyword = "w"),
+  "w",
+  (SELECT id FROM moz_places WHERE url = "http://en.wikipedia.org/w/index.php?title=Special:Search&search=%s")
+);
+
+insert or replace into moz_bookmarks (id,type,fk,parent,title,keyword_id) 
+values (
+  (SELECT id FROM moz_bookmarks WHERE title = "Wikipedia"),1,(SELECT id FROM moz_places WHERE url = "http://en.wikipedia.org/w/index.php?title=Special:Search&search=%s"),
+  (select id from moz_bookmarks where type=2 and title="search shortcuts"),"Wikipedia",(SELECT id FROM moz_keywords WHERE keyword = "w")
+);
+```
+
+For Internet Explorer, the registry modifications look like this:
+
+```
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\w]
+@="http://en.wikipedia.org/w/index.php?title=Special:Search&search=%s"
+```

@@ -25,7 +25,7 @@ Data files
 ==========
 
 There are two XML files. 
-* Searches.xml (the default) contains some general purpose search engines.
+* Searches.xml (the default) contains some general purpose search engines (google, wikipedia etc)
 * Dictionaries.xml contains a selection of web based dictionaries. 
 
 Workings

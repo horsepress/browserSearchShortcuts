@@ -41,6 +41,8 @@ SQL
 
 The SQL commands used look like these examples (for searching Wikipedia with "w"). The SQL and .reg files can be generated from the XML without applying them using the makeSQL.bat file.
 
+Look in the SQL directory for the full SQL and reg files.
+
 Chrome:
 ```sql
 delete from keywords where keyword in ("w");

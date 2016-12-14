@@ -13,6 +13,11 @@ set silent=on
 if not "%2"=="" set searchfile=%2
 )
 
+For %%A in ("%searchfile%") do (
+    rem Set Folder=%%~dpA
+    Set searchFileName=%%~nxA
+)
+
 echo.
 echo File is %searchfile%
 echo silent mode is %silent% (set to on with /s)
@@ -23,9 +28,9 @@ echo file "%searchfile%" not found, aborting
 goto end
 )
 @echo on
-bin\msxsl.exe "%searchfile%" "xsl\internetExplorer_keywords.xsl" >internetExplorer_%searchfile%.reg"
-bin\msxsl.exe "%searchfile%" "xsl\chrome_keywords.xsl" >chrome_%searchfile%.sql
-bin\msxsl.exe "%searchfile%" "xsl\firefox_keywords.xsl" >firefox_%searchfile%.sql
+bin\msxsl.exe "%searchfile%" "xsl\internetExplorer_keywords.xsl" >internetExplorer_%searchFileName%.reg"
+bin\msxsl.exe "%searchfile%" "xsl\chrome_keywords.xsl" >chrome_%searchFileName%.sql
+bin\msxsl.exe "%searchfile%" "xsl\firefox_keywords.xsl" >firefox_%searchFileName%.sql
 
 :end
 @echo off

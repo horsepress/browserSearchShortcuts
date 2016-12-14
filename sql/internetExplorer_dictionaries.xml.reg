@@ -1,0 +1,243 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl]
+@="https://www.google.co.uk/search?q=%s"
+
+	
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\et]
+@="http://www.etymonline.com/index.php?allowed_in_frame=0&search=%s&searchmode=none"	
+	
+	 
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\es]
+@="http://www.wordreference.com/definicion/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\en]
+@="http://www.wordreference.com/definition/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\it]
+@="http://www.wordreference.com/definizione/%s"	
+		
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\esth]
+@="http://www.wordreference.com/sinonimos/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\enth]
+@="http://www.wordreference.com/thesaurus/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\th]
+@="http://www.wordreference.com/thesaurus/%s"
+	
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\esconj]
+@="http://www.wordreference.com/conj/ESverbs.asp?v=%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\frconf]
+@="http://www.wordreference.com/conj/FRverbs.asp?v=%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\itconf]
+@="http://www.wordreference.com/conj/ITverbs.asp?v=%s"
+
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\enes]
+@="http://www.wordreference.com/enes/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\enfr]
+@="http://www.wordreference.com/enfr/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\enit]
+@="http://www.wordreference.com/enit/%s"
+	
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\enpt]
+@="http://www.wordreference.com/enpt/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\esfr]
+@="http://www.wordreference.com/esfr/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\espt]
+@="http://www.wordreference.com/espt/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\esen]
+@="http://www.wordreference.com/esen/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\fren]
+@="http://www.wordreference.com/fren/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\iten]
+@="http://www.wordreference.com/iten/%s"
+	
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\pten]
+@="http://www.wordreference.com/pten/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\fres]
+@="http://www.wordreference.com/fres/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\ptes]
+@="http://www.wordreference.com/ptes/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\enru]
+@="http://www.wordreference.com/enru/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\enpl]
+@="http://www.wordreference.com/enpl/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\enro]
+@="http://www.wordreference.com/enro/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\encz]
+@="http://www.wordreference.com/encz/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\engr]
+@="http://www.wordreference.com/engr/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\entr]
+@="http://www.wordreference.com/entr/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\enzh]
+@="http://www.wordreference.com/enzh/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\enja]
+@="http://www.wordreference.com/enja/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\enko]
+@="http://www.wordreference.com/enko/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\enar]
+@="http://www.wordreference.com/enar/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\ruen]
+@="http://www.wordreference.com/ruen/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\plen]
+@="http://www.wordreference.com/plen/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\roen]
+@="http://www.wordreference.com/roen/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\czen]
+@="http://www.wordreference.com/czen/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\gren]
+@="http://www.wordreference.com/gren/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\tren]
+@="http://www.wordreference.com/tren/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\zhen]
+@="http://www.wordreference.com/zhen/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\jaen]
+@="http://www.wordreference.com/jaen/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\koen]
+@="http://www.wordreference.com/koen/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\aren]
+@="http://www.wordreference.com/aren/%s"	
+
+	
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\ensp]
+@="http://www.wordreference.com/enes/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\spen]
+@="http://www.wordreference.com/esen/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\spfr]
+@="http://www.wordreference.com/esfr/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\sppt]
+@="http://www.wordreference.com/espt/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\frsp]
+@="http://www.wordreference.com/fres/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\ptsp]
+@="http://www.wordreference.com/ptes/%s"
+	
+	
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\enge]
+@="http://www.wordreference.com/ende/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\geen]
+@="http://www.wordreference.com/deen/%s"
+
+	
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\ende]
+@="http://dict.leo.org/ende/index_de.html#/searchLoc=-1&resultOrder=basic&multiwordShowSingle=on&search=%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\deen]
+@="http://dict.leo.org/ende/index_de.html#/searchLoc=1&resultOrder=basic&multiwordShowSingle=on&search=%s"		
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\frde]
+@="http://dict.leo.org/frde/index_de.html#/searchLoc=-1&resultOrder=basic&multiwordShowSingle=on&search=%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\defr]
+@="http://dict.leo.org/frde/index_de.html#/searchLoc=1&resultOrder=basic&multiwordShowSingle=on&search=%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\esde]
+@="http://dict.leo.org/esde/index_de.html#/searchLoc=-1&resultOrder=basic&multiwordShowSingle=on&search=%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\dees]
+@="http://dict.leo.org/esde/index_de.html#/searchLoc=1&resultOrder=basic&multiwordShowSingle=on&search=%s"	
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\itde]
+@="http://dict.leo.org/itde/index_de.html#/searchLoc=-1&resultOrder=basic&multiwordShowSingle=on&search=%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\deit]
+@="http://dict.leo.org/itde/index_de.html#/searchLoc=1&resultOrder=basic&multiwordShowSingle=on&search=%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\chde]
+@="http://dict.leo.org/chde/index_de.html#/searchLoc=-1&resultOrder=basic&multiwordShowSingle=on&search=%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\dech]
+@="http://dict.leo.org/chde/index_de.html#/searchLoc=1&resultOrder=basic&multiwordShowSingle=on&search=%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\rude]
+@="http://dict.leo.org/rude/index_de.html#/searchLoc=-1&resultOrder=basic&multiwordShowSingle=on&search=%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\deru]
+@="http://dict.leo.org/rude/index_de.html#/searchLoc=1&resultOrder=basic&multiwordShowSingle=on&search=%s"	
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\ptde]
+@="http://dict.leo.org/ptde/index_de.html#/searchLoc=-1&resultOrder=basic&multiwordShowSingle=on&search=%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\dept]
+@="http://dict.leo.org/ptde/index_de.html#/searchLoc=1&resultOrder=basic&multiwordShowSingle=on&search=%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\plde]
+@="http://dict.leo.org/plde/index_de.html#/searchLoc=-1&resultOrder=basic&multiwordShowSingle=on&search=%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\depl]
+@="http://dict.leo.org/plde/index_de.html#/searchLoc=1&resultOrder=basic&multiwordShowSingle=on&search=%s"		
+
+	
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\ox]
+@="http://www.oxforddictionaries.com/definition/english/%s"
+	
+	
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\tr]
+@="http://translate.google.com/#auto/en/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\tren]
+@="http://translate.google.com/#auto/en/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\triten]
+@="http://translate.google.com/#it/en/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\trfren]
+@="http://translate.google.com/#fr/en/%s"	
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\trspen]
+@="http://translate.google.com/#sp/en/%s"	
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\trdeen]
+@="http://translate.google.com/#de/en/%s"	
+	

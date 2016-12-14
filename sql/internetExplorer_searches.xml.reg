@@ -1,0 +1,45 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl]
+@="https://www.google.co.uk/search?q=%s"
+	
+	
+	
+	
+	
+
+	
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\w]
+@="http://en.wikipedia.org/w/index.php?title=Special:Search&search=%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\en]
+@="http://www.wordreference.com/definition/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\map]
+@="https://www.google.com/maps/place/%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\ln]
+@="http://www.linkedin.com/search/fpsearch?type=people&pplSearchOrigin=GLHD&pageKey=member-home&search=Search&keywords=%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\gi]
+@="https://www.google.com/search?tbm=isch&q=%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\gsc]
+@="https://scholar.google.co.uk/scholar?hl=en&btnG=&as_sdt=1%2C5&as_sdtp=&q=%s"	
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\gsh]
+@="https://www.google.co.uk/#tbm=shop&q=%s"	
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\gbk]
+@="https://www.google.co.uk/#tbm=bks&q=%s"	
+
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\g]
+@="https://www.google.co.uk/search?q=%s"
+	
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\ebay]
+@="http://www.ebay.co.uk/sch/i.html?_nkw=%s&_sacat=0"
+	
+	
+

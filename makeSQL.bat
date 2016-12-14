@@ -31,6 +31,7 @@ goto end
 bin\msxsl.exe "%searchfile%" "xsl\internetExplorer_keywords.xsl" >internetExplorer_%searchFileName%.reg"
 bin\msxsl.exe "%searchfile%" "xsl\chrome_keywords.xsl" >chrome_%searchFileName%.sql
 bin\msxsl.exe "%searchfile%" "xsl\firefox_keywords.xsl" >firefox_%searchFileName%.sql
+bin\msxsl.exe "%searchfile%" "xsl\searchList.xsl" -o "searchList_%searchFileName%.html"
 
 :end
 @echo off

@@ -13,6 +13,11 @@ set silent=on
 if not "%2"=="" set searchfile=%2
 )
 
+For %%A in ("%searchfile%") do (
+    rem Set Folder=%%~dpA
+    Set searchFileName=%%~nxA
+)
+
 echo.
 echo File is %searchfile%
 echo silent mode is %silent% (set to on with /s)
@@ -63,7 +68,7 @@ cd /d "%workingdir%"
 bin\msxsl.exe "%searchfile%" "xsl\firefox_keywords.xsl" | "sqlite3.exe" "%placesdir%\places.sqlite"
 
 @echo on
-bin\msxsl.exe "%searchfile%" "xsl\searchList.xsl" -o "%searchfile%.html"
+bin\msxsl.exe "%searchfile%" "xsl\searchList.xsl" -o "searchList_%searchFileName%.html"
 
 :end
 @echo off

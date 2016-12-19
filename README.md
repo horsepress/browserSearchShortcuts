@@ -1,4 +1,4 @@
-This adds browser address bar keyword search shortcuts to Chrome, Firefox and Internet Explorer on Windows PCs.
+This adds browser address bar keyword search shortcuts to Chrome, Firefox and Internet Explorer on Windows PCs. A bash script for adding shortcuts to Chrome and Firefox on Mac OS X is also included.
 
 These are both useful and a pain to edit manually, hence this project. 
 
@@ -6,8 +6,8 @@ See e.g. http://kb.mozillazine.org/Using_keyword_searches  or http://lifehacker.
 
 ![Sample keyword](http://winaero.com/blog/wp-content/uploads/2014/04/Italian-bread-address-bar.png)
 
-Use
-===
+Use on Windows
+==============
 
 Run ```addSearchShortcuts.bat``` to add the default file, which is ```searches.xml```. 
 
@@ -21,10 +21,19 @@ Explorer registry entries
 
 You could create additional XML files for further shortcuts, or edit these.
 
+Use on Mac OS X
+===============
+
+Run ```addSearchShortcuts.command``` to add the default file, which is ```searches.xml```. 
+
+Alternatively run this file with a parameter from the terminal to add a different file.
+
+Chrome and Firefox will be killed when this runs! 
+
 Data files
 ==========
 
-There are two XML files. 
+There are two XML files provided. You could create more or edit these as necessary 
 * Searches.xml (the default) contains some general purpose search engines (google, wikipedia etc)
 * Dictionaries.xml contains a selection of web based dictionaries. 
 
@@ -33,6 +42,7 @@ Workings
 
 * ```msmsl.exe``` is used to convert ```searches.xml``` into SQLite commands (for Chrome and Firefox) and registry (for internet explorer) files
 containing details of the search shortcuts, using the XSL files in the ```xsl``` directory.
+** On Mac, this is handled by the ```xsltproc``` command.
 * These are then added to the SQLite databases and registry respectively.
 * An HTML file detailing the searches is also generated.
 

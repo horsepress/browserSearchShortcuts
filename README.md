@@ -2,6 +2,8 @@ This adds browser address bar keyword search shortcuts to Chrome, Firefox and In
 
 These are both useful and a pain to edit, replicate and distribute manually, hence this project. 
 
+**The Google Chrome database is now encypted, so this won't work in Chrome any more.**
+
 See e.g. http://kb.mozillazine.org/Using_keyword_searches  or http://lifehacker.com/5476033/how-to-set-keyword-bookmarks-in-google-chrome for details. 
 
 ![Sample keyword](http://winaero.com/blog/wp-content/uploads/2014/04/Italian-bread-address-bar.png)

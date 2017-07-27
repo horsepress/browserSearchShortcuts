@@ -2,14 +2,29 @@ This adds browser address bar keyword search shortcuts to Chrome, Firefox and In
 
 These are both useful and a pain to edit, replicate and distribute manually, hence this project. 
 
-**The Google Chrome database is now encypted, so this won't work in Chrome any more.**
+
 
 See e.g. http://kb.mozillazine.org/Using_keyword_searches  or http://lifehacker.com/5476033/how-to-set-keyword-bookmarks-in-google-chrome for details. 
 
 ![Sample keyword](http://winaero.com/blog/wp-content/uploads/2014/04/Italian-bread-address-bar.png)
 
-Use on Windows
-==============
+Bookmark HTML generation and import - Chrome and Firefox
+========================================================
+
+Bookmark HTML files can be used to import search keywords in bulk.
+
+See the htmlBookmarks folder, or generate the files by dragging XML files on to ```makeBookmarkHTMLfiles.bat``` (or ```makeBookmarkHTMLfiles.bat searches.xml``` from command prompt.
+
+You can import these via (Chrome menu) => Bookmarks => Import bookmarks and settings => (select "Bookmarks HTML file") => Choose file
+
+On Mozilla, do "Show all bookmarks" => "Import and Backup" => "Import bookmarks from HTML"
+
+You can edit them within Chrome though by going to Settings => Search Engines (chrome://settings/searchEngines). 
+
+Automated use on Windows
+========================
+
+**The Google Chrome database is now encypted, so this won't work in Chrome any more.**
 
 Run ```addSearchShortcuts.bat``` to add the default file, which is ```searches.xml```. 
 
@@ -47,6 +62,25 @@ containing details of the search shortcuts, using the XSL files in the ```xsl```
 ** On Mac, this is handled by the ```xsltproc``` command.
 * These are then added to the SQLite databases and registry respectively.
 * An HTML file detailing the searches is also generated.
+
+Sample bookmark HTML file
+=========================
+
+```html
+<!DOCTYPE NETSCAPE-Bookmark-file-1>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<TITLE>Bookmarks</TITLE>
+<H1>Bookmarks</H1>
+<DL>
+	<p>
+		<DT><A HREF="chrome://history/search#q=%s" SHORTCUTURL="hi">history</A></DT>
+		<DT><A HREF="http://en.wikipedia.org/w/index.php?title=Special:Search&amp;search=%s" SHORTCUTURL="w">Wikipedia</A></DT>
+		<DT><A HREF="http://www.wordreference.com/definition/%s" SHORTCUTURL="en">Wordref Eng</A></DT>
+		<DT><A HREF="https://www.google.com/maps/place/%s" SHORTCUTURL="map">Google maps</A></DT>
+		<DT><A HREF="https://www.google.co.uk/search?q=%s" SHORTCUTURL="g">Google</A></DT>
+	</p>
+</DL>
+```
 
 SQL
 ===
